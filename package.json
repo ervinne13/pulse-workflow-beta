@@ -1,0 +1,19 @@
+{
+  "name": "pulse",
+  "version": "0.1.0",
+  "description": "Application that moves documents through workflows and executes actions on each node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./tests",
+    "test:actions": "jest -c jest.config.actions.js"
+  },
+  "keywords": [
+    "workflow",
+    "fbp"
+  ],
+  "author": "Ervinne Sodusta <ervinne.sodusta@nuworks.ph>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
